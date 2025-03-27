@@ -7,6 +7,20 @@
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+            
+        }
+        h1{
+            text-align: center;
+            color: white;
+            background-color: rgba(18, 143, 185, 0.888);
+            padding: 10px;
+        }
+        p{
+            text-align: center;
+            color: white;
+        
+            padding: 10px;
         }
         table{
             height: 300px;
@@ -18,12 +32,14 @@
             font-size: 1em;
             font-weight: bold;
             padding: 10px;
+            color : white;
         }
         td.num{
             width: 200px;
             text-align: right;
             padding-right: 10px;
         }
+
        
     
       thead{
@@ -31,14 +47,25 @@
            background-color: rgb(25, 172, 188);
            font-weight: bold;
        }
+       thead > tr > th{
+           position: sticky;
+           top: -1px;
+           background-color: rgb(25, 172, 188);
+       }
     
        td, th{
            border: 1px solid black;
            padding-left: 10px;
            width: 5000px;
        }
+       tbody > tr:nth-child(even){
+           background-color: rgba(49, 207, 204, 0.463);
+       }
+       tbody > tr:nth-child(odd){
+           background-color: rgba(242, 241, 241, 0.786);
+       }
       tfoot{
-           background-color: rgb(253, 37, 37);
+           background-color: rgb(106, 104, 104);
            color: white;
            font-weight: bold;
            text-align: center;
@@ -121,6 +148,313 @@
             <td>Bahia</td>
             <td class = "num">14.659.023</td>
         </tr>
+        <tr>
+            <td>Mato Grosso</td>
+            <td class = "num">3.526.220</td>
+        </tr>
+        <tr>
+            <td>Goias</td><td class = "num">7.018.354</td>
+        </tr>
+        <tr>
+            <td>Maranhao</td><td class = "num">7.075.181</td>
+        </tr>
+        <tr>
+            <td>Amazonas</td><td class = "num">4.144.597</td>
+        </tr>
+        <tr>
+            <td>Espirito Santo</td><td class = "num">4.018.650</td>
+        </tr>
+        <tr>
+            <td>piruibia</td><td class = "num">15.989.929</td>
+        </tr>
+        <tr>
+            <td>Rondonia</td><td class = "num">15.989.929</td>
+        </tr>
+        <tr>
+            <td>Acre</td><td class = "num">15.989.929</td>
+        </tr>
+        <tr>
+            <td>Amapa</td><td class = "num">15.989.929</td>
+        </tr>
+        <tr>
+            <td>Tocantins</td><td class = "num">15.989.929</td>
+        </tr>
+        <tr>
+            <td>Roraima</td><td class = "num">15.989.929</td>
+        </tr>
+        <tr>
+            <td>Amapa</td><td class = "num">15.989.929 </td>
+        </tr>
+        <tr>
+            <td>Sao paulo</td>
+            <td class = "num">41.262.199</td>
+        </tr>
+        <tr>
+            <td>Rio de Janeiro</td>
+            <td class = "num">15.989.929</td>
+        </tr>
+        <tr>
+            <td>Minas Gerais</td>
+            <td class = "num">21.411.923</td>
+        </tr>
+        <tr>
+            <td>Rio Grande do Sul</td>
+            <td class = "num">11.463.287</td>
+        </tr>
+        <tr>
+            <td>Paraiba</td>
+            <td class = "num">8.562.181	</td>
+        </tr>
+        <tr>
+            <td>Sergipe</td>
+            <td class = "num">2.259.128</td>
+        </tr>
+        <tr>
+            <td>Rio Grande do Norte</td>
+            <td class = "num">3.534.165</td>
+        </tr>
+        <tr>
+            <td>Ceara</td>
+            <td class = "num">9.147.142</td>
+        </tr>
+        <tr>
+            <td>Para</td>
+            <td class="num">8.442.962</td>
+        </tr>
+        <tr>
+            <td>Pernambuco</td>
+            <td class = "num">9.557.071</td>
+        </tr>
+        <tr>
+            <td>Alagoas</td>
+            <td class = "num">3.355.271</td>
+        </tr>
+        <tr>
+            <td>Sergipe</td>
+            <td class = "num">2.259.128</td>
+        </tr>
+        <tr>
+            <td>Bahia</td>
+            <td class = "num">14.659.023</td>
+        </tr>
+        <tr>
+            <td>Mato Grosso</td>
+            <td class = "num">3.526.220</td>
+        </tr>
+        <tr>
+            <td>Goias</td><td class = "num">7.018.354</td>
+        </tr>
+        <tr>
+            <td>Maranhao</td><td class = "num">7.075.181</td>
+        </tr>
+        <tr>
+            <td>Amazonas</td><td class = "num">4.144.597</td>
+        </tr>
+        <tr>
+            <td>Espirito Santo</td><td class = "num">4.018.650</td>
+        </tr>
+        <tr>
+            <td>piruibia</td><td class = "num">15.989.929</td>
+        </tr>
+        <tr>
+            <td>Rondonia</td><td class = "num">15.989.929</td>
+        </tr>
+        <tr>
+            <td>Acre</td><td class = "num">15.989.929</td>
+        </tr>
+        <tr>
+            <td>Amapa</td><td class = "num">15.989.929</td>
+        </tr>
+        <tr>
+            <td>Tocantins</td><td class = "num">15.989.929</td>
+        </tr>
+        <tr>
+            <td>Roraima</td><td class = "num">15.989.929</td>
+        </tr>
+        <tr>
+            <td>Amapa</td><td class = "num">15.989.929 </td>
+        </tr>
+        <tr>
+            <td>Sao paulo</td>
+            <td class = "num">41.262.199</td>
+        </tr>
+        <tr>
+            <td>Rio de Janeiro</td>
+            <td class = "num">15.989.929</td>
+        </tr>
+        <tr>
+            <td>Minas Gerais</td>
+            <td class = "num">21.411.923</td>
+        </tr>
+        <tr>
+            <td>Rio Grande do Sul</td>
+            <td class = "num">11.463.287</td>
+        </tr>
+        <tr>
+            <td>Paraiba</td>
+            <td class = "num">8.562.181	</td>
+        </tr>
+        <tr>
+            <td>Sergipe</td>
+            <td class = "num">2.259.128</td>
+        </tr>
+        <tr>
+            <td>Rio Grande do Norte</td>
+            <td class = "num">3.534.165</td>
+        </tr>
+        <tr>
+            <td>Ceara</td>
+            <td class = "num">9.147.142</td>
+        </tr>
+        <tr>
+            <td>Para</td>
+            <td class="num">8.442.962</td>
+        </tr>
+        <tr>
+            <td>Pernambuco</td>
+            <td class = "num">9.557.071</td>
+        </tr>
+        <tr>
+            <td>Alagoas</td>
+            <td class = "num">3.355.271</td>
+        </tr>
+        <tr>
+            <td>Sergipe</td>
+            <td class = "num">2.259.128</td>
+        </tr>
+        <tr>
+            <td>Bahia</td>
+            <td class = "num">14.659.023</td>
+        </tr>
+        <tr>
+            <td>Mato Grosso</td>
+            <td class = "num">3.526.220</td>
+        </tr>
+        <tr>
+            <td>Goias</td><td class = "num">7.018.354</td>
+        </tr>
+        <tr>
+            <td>Maranhao</td><td class = "num">7.075.181</td>
+        </tr>
+        <tr>
+            <td>Amazonas</td><td class = "num">4.144.597</td>
+        </tr>
+        <tr>
+            <td>Espirito Santo</td><td class = "num">4.018.650</td>
+        </tr>
+        <tr>
+            <td>piruibia</td><td class = "num">15.989.929</td>
+        </tr>
+        <tr>
+            <td>Rondonia</td><td class = "num">15.989.929</td>
+        </tr>
+        <tr>
+            <td>Acre</td><td class = "num">15.989.929</td>
+        </tr>
+        <tr>
+            <td>Amapa</td><td class = "num">15.989.929</td>
+        </tr>
+        <tr>
+            <td>Tocantins</td><td class = "num">15.989.929</td>
+        </tr>
+        <tr>
+            <td>Roraima</td><td class = "num">15.989.929</td>
+        </tr>
+        <tr>
+            <td>Amapa</td><td class = "num">15.989.929 </td>
+        </tr>
+        <tr>
+            <td>Sao paulo</td>
+            <td class = "num">41.262.199</td>
+        </tr>
+        <tr>
+            <td>Rio de Janeiro</td>
+            <td class = "num">15.989.929</td>
+        </tr>
+        <tr>
+            <td>Minas Gerais</td>
+            <td class = "num">21.411.923</td>
+        </tr>
+        <tr>
+            <td>Rio Grande do Sul</td>
+            <td class = "num">11.463.287</td>
+        </tr>
+        <tr>
+            <td>Paraiba</td>
+            <td class = "num">8.562.181	</td>
+        </tr>
+        <tr>
+            <td>Sergipe</td>
+            <td class = "num">2.259.128</td>
+        </tr>
+        <tr>
+            <td>Rio Grande do Norte</td>
+            <td class = "num">3.534.165</td>
+        </tr>
+        <tr>
+            <td>Ceara</td>
+            <td class = "num">9.147.142</td>
+        </tr>
+        <tr>
+            <td>Para</td>
+            <td class="num">8.442.962</td>
+        </tr>
+        <tr>
+            <td>Pernambuco</td>
+            <td class = "num">9.557.071</td>
+        </tr>
+        <tr>
+            <td>Alagoas</td>
+            <td class = "num">3.355.271</td>
+        </tr>
+        <tr>
+            <td>Sergipe</td>
+            <td class = "num">2.259.128</td>
+        </tr>
+        <tr>
+            <td>Bahia</td>
+            <td class = "num">14.659.023</td>
+        </tr>
+        <tr>
+            <td>Mato Grosso</td>
+            <td class = "num">3.526.220</td>
+        </tr>
+        <tr>
+            <td>Goias</td><td class = "num">7.018.354</td>
+        </tr>
+        <tr>
+            <td>Maranhao</td><td class = "num">7.075.181</td>
+        </tr>
+        <tr>
+            <td>Amazonas</td><td class = "num">4.144.597</td>
+        </tr>
+        <tr>
+            <td>Espirito Santo</td><td class = "num">4.018.650</td>
+        </tr>
+        <tr>
+            <td>piruibia</td><td class = "num">15.989.929</td>
+        </tr>
+        <tr>
+            <td>Rondonia</td><td class = "num">15.989.929</td>
+        </tr>
+        <tr>
+            <td>Acre</td><td class = "num">15.989.929</td>
+        </tr>
+        <tr>
+            <td>Amapa</td><td class = "num">15.989.929</td>
+        </tr>
+        <tr>
+            <td>Tocantins</td><td class = "num">15.989.929</td>
+        </tr>
+        <tr>
+            <td>Roraima</td><td class = "num">15.989.929</td>
+        </tr>
+        <tr>
+            <td>Amapa</td><td class = "num">15.989.929 </td>
+        </tr>
+
+
+
 
         </tbody>
 
@@ -129,9 +463,13 @@
         <tr>    
             <th scope="row">Total de habitantes</th>
             <td class = "num"> 170.000.000</td>
+            
 
         </tfoot>
 
      </table>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi distinctio cum sit hic. Eum voluptas eos pariatur repudiandae adipisci nesciunt dolor quae atque ratione, vitae consequuntur et id necessitatibus? Ea. <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, ullam nostrum modi optio veniam placeat cum nihil, possimus voluptatibus nam magni officiis quod repudiandae numquam ad excepturi deleniti labore. Sequi. <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus ad debitis excepturi sint modi saepe repudiandae sed exercitationem eos ea reprehenderit aliquid, libero molestias. Quasi omnis deserunt nihil debitis mollitia!</p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi distinctio cum sit hic. Eum voluptas eos pariatur repudiandae adipisci nesciunt dolor quae atque ratione, vitae consequuntur et id necessitatibus? Ea. <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, ullam nostrum modi optio veniam placeat cum nihil, possimus voluptatibus nam magni officiis quod repudiandae numquam ad excepturi deleniti labore. Sequi. <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus ad debitis excepturi sint modi saepe repudiandae sed exercitationem eos ea reprehenderit aliquid, libero molestias. Quasi omnis deserunt nihil debitis mollitia!</p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi distinctio cum sit hic. Eum voluptas eos pariatur repudiandae adipisci nesciunt dolor quae atque ratione, vitae consequuntur et id necessitatibus? Ea. <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, ullam nostrum modi optio veniam placeat cum nihil, possimus voluptatibus nam magni officiis quod repudiandae numquam ad excepturi deleniti labore. Sequi. <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus ad debitis excepturi sint modi saepe repudiandae sed exercitationem eos ea reprehenderit aliquid, libero molestias. Quasi omnis deserunt nihil debitis mollitia!</p>
 </body>
 </html>
