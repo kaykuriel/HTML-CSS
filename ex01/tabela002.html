@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Grande</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            height: 300px;
+            width: 500px;
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+        caption{
+            font-size: 1em;
+            font-weight: bold;
+            padding: 10px;
+        }
+        td.num{
+            width: 200px;
+            text-align: right;
+            padding-right: 10px;
+        }
+       
+    
+      thead{
+        border: 1px solid black;
+           background-color: rgb(25, 172, 188);
+           font-weight: bold;
+       }
+    
+       td, th{
+           border: 1px solid black;
+           padding-left: 10px;
+           width: 5000px;
+       }
+      tfoot{
+           background-color: rgb(253, 37, 37);
+           color: white;
+           font-weight: bold;
+           text-align: center;
+       }
+
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!-- ANATOMIA PARA TABELAS GRANDES
+        CAPTION
+        THEAD
+        tr, td, ht
+        TBODY
+        tr, td, ht
+        TFOOT
+        tr, td, ht -->
+
+     <table>
+        <caption>População das Unidades de Estados</caption>
+        <thead>
+
+        <tr>
+            <th scope="col"> Estados</th>
+            <th scope="col" style="width: 50px;"> População</th>
+        </tr>
+
+        </thead>
+
+        <tbody>
+        <tr>
+            <td>Sao paulo</td>
+            <td class = "num">41.262.199</td>
+        </tr>
+        <tr>
+            <td>Rio de Janeiro</td>
+            <td class = "num">15.989.929</td>
+        </tr>
+        <tr>
+            <td>Minas Gerais</td>
+            <td class = "num">21.411.923</td>
+        </tr>
+        <tr>
+            <td>Rio Grande do Sul</td>
+            <td class = "num">11.463.287</td>
+        </tr>
+        <tr>
+            <td>Paraiba</td>
+            <td class = "num">8.562.181	</td>
+        </tr>
+        <tr>
+            <td>Sergipe</td>
+            <td class = "num">2.259.128</td>
+        </tr>
+        <tr>
+            <td>Rio Grande do Norte</td>
+            <td class = "num">3.534.165</td>
+        </tr>
+        <tr>
+            <td>Ceara</td>
+            <td class = "num">9.147.142</td>
+        </tr>
+        <tr>
+            <td>Para</td>
+            <td class="num">8.442.962</td>
+        </tr>
+        <tr>
+            <td>Pernambuco</td>
+            <td class = "num">9.557.071</td>
+        </tr>
+        <tr>
+            <td>Alagoas</td>
+            <td class = "num">3.355.271</td>
+        </tr>
+        <tr>
+            <td>Sergipe</td>
+            <td class = "num">2.259.128</td>
+        </tr>
+        <tr>
+            <td>Bahia</td>
+            <td class = "num">14.659.023</td>
+        </tr>
+
+        </tbody>
+
+        <tfoot>
+
+        <tr>    
+            <th scope="row">Total de habitantes</th>
+            <td class = "num"> 170.000.000</td>
+
+        </tfoot>
+
+     </table>
+</body>
+</html>
