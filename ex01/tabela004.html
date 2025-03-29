@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+           
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        th, td {
+            border: 1px solid #000000;
+            padding: 8px;
+            
+        }
+        .destaque {
+            background-color: #c42323;
+        }
+        .cnome {
+            background-color: #a40f0f;
+        }
+      
+        .cgrupo {
+                background-color: #19ccb4;
+            }
+    </style>
+</head>
+<body>
+    <h1>Exercio de Tabela</h1>
+    <table>
+        <colgroup>
+            <col  class="cnome">
+            <col class="cgrupo" span="3">
+            
+        </colgroup>
+        <caption>Cadastro</caption>
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">profissão</th>
+            </tr>
+            <tr>
+                <td>Ana Maria</td>
+                <td>Feminino</td>
+                <td>25</td>
+                <td>Desenvolvedora</td>
+            </tr>
+            <tr>
+                <td>Carlos Silva</td>
+                <td>Masculino</td>
+                <td>30</td>
+                <td>Analista de Sistemas</td>
+            </tr>
+            <tr>
+                <td>Beatriz Souza</td>
+                <td>Feminino</td>
+                <td>20</td>
+                <td>Desenvolvedora</td>
+            </tr>
+            <tr>
+                <td>Lucas Oliveira</td>
+                <td>Masculino</td>
+                <td>28</td>
+                <td>Analista de Sistemas</td>
+            </tr>
+            <tr>
+                <td>Fernanda Costa</td>
+                <td>Feminino</td>
+                <td>22</td>
+                <td>Desenvolvedora</td>
+            </tr>
+            <tr>
+                <td>Ricardo Almeida</td>
+                <td>Masculino</td>
+                <td>35</td>
+                <td>Analista de Sistemas</td>
+        </thead>
+        <tbody>
+            
