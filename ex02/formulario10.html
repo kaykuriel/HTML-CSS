@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        body{    
+            font-family: Arial, sans-serif;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Teste de Formulario</h1>
+<form action="cadastro.php" method="get">
+
+    <p><label for="iano">Ano de Nascimento:</label> <input type="number" name="ano" id="iano" min="2000" max="2025" value="2025"
+        oninput= "calcidade()"></label></p>
+
+    <p><label for="iidade">Idade:</label> <output id="iidade">0</output></p>
+<p>
+            <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+</p>
+    </form>
+
+    <script>
+        function calcidade() {
+            let atual = new Date().getFullYear()
+            iidade.innerHTML = Number(atual) - Number (iano.value) 
+            
+            
+            // Obtendo o ano atual
+        }
+        // Adicionando um evento de mudança ao campo de entrada
+    </script>
+    
+</body>
+</html>
