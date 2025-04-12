@@ -16,20 +16,37 @@
             background-color: lightskyblue;
             border: 1px solid black;
             text-align: center;
-            flex-basis: 250px;
+           
            
         }
         div#CXA {
-            flex-shrink: 0;
-            flex-grow: 1;
+            /*ordem flex : grow, shrink e basis*/
+
+
+            /* flex : 0 1 auto;
+                     =
+            flex : initial; 
+....................................
+             /* flex : 0 0 auto;
+                     =
+            flex : none; 
+...................................
+             /* flex : 1 1 auto;
+                     =
+            flex : auto; 
+....................................
+             /* flex : 3;
+                     =
+            flex : 3 1 auto; */
+
+        
+            flex: 0 1 250px;
         }
         div#CXB {
-            flex-shrink: 1;
-            flex-grow: 1;
+            flex: 1 1 250px;
         }
         div#CXC {
-            flex-shrink: 3;
-            flex-grow: 1;
+           flex: 1 3 250px;
         }
     </style>
 </head>
